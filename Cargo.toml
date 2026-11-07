@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos_alias"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS alias model"
+
+[lib]
+name = "sigmaos_alias"
+path = "src/lib.rs"
+
+[dependencies]

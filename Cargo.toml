@@ -1,11 +1,15 @@
 [package]
-name = "sigmaos_alias"
+name = "SigmaOS-alias"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS alias model"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_alias component"
 
 [lib]
 name = "sigmaos_alias"
 path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
